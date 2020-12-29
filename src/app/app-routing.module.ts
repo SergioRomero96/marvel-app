@@ -1,8 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { CharacterListComponent } from './components/characters/character-list/character-list.component';
 
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path: '', redirectTo:'characters', pathMatch:'full'},
+  {path: 'characters', component:CharacterListComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

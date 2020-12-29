@@ -1,0 +1,10 @@
+.sidenav {
+  height: calc(100vh - 64px);
+  margin-top: 64px;
+}
+
+.layout-content {
+  background-color: #F6F7FF; /*f0f2f5*/
+    height: calc(100vh - 64px);
+    margin-top: 64px;
+} 
